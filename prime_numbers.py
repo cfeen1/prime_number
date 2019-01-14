@@ -25,7 +25,7 @@ def is_prime(input):
 									
 while True:
 	"""This while loop continuly asks the user for a number to check
-	if it is prime or not until the user enters 'q' to quit"""
+	if it is prime or until the user enters 'q' to quit"""
 	prompt = "Enter a number and I will tell you if it is prime, "
 	prompt += "\nor enter 'q' to exit: "
 	ask = input(prompt)
